@@ -14,8 +14,7 @@ class PageViewController: UIPageViewController {
         "Первая страница презентации, расказывающая о том, что наше приложение из себя предсавляет",
         "Вторая страница презентации, расказывает о какойто удобной фишке приложения",
         "Третья сраница презентации тоже рассказывает о чем то очень интересном",
-        "Ну и наконец последняя страница презентации с напутствием в добрый путь =)",
-        ""
+        "Ну и наконец последняя страница презентации с напутствием в добрый путь =)"
     ]
     
     let emojiArray = ["😉", "🤓", "🧐", "👍", ""]
@@ -27,8 +26,8 @@ class PageViewController: UIPageViewController {
         if let contentViewController = showViewControllerAtIndex(0) {
             setViewControllers([contentViewController], direction: .forward, animated: true, completion: nil)
         }
-  
     }
+    
     func showViewControllerAtIndex(_ index: Int) -> ContentViewController? {
         
         guard index >= 0 && index < presentScreenContent.count else {
@@ -70,6 +69,4 @@ extension PageViewController: UIPageViewControllerDataSource {
               
               return showViewControllerAtIndex(pageNumber)
     }
-    
-    
 }

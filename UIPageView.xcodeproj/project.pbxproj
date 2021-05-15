@@ -41,6 +41,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E516195D264FEA6300D51CC8 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				E55375C924F783F4003DDD5D /* AppDelegate.swift */,
+				E55375CB24F783F4003DDD5D /* SceneDelegate.swift */,
+				E55375D724F783F5003DDD5D /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		E516195F264FEAA400D51CC8 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E55375CD24F783F4003DDD5D /* ViewController.swift */,
+				E55375DF24F787DD003DDD5D /* PageViewController.swift */,
+				E55375DD24F787AC003DDD5D /* ContentViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E5161962264FEAD400D51CC8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E55375CF24F783F4003DDD5D /* Main.storyboard */,
+				E55375D424F783F5003DDD5D /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E5161963264FEAE400D51CC8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E55375D224F783F5003DDD5D /* Assets.xcassets */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		E55375BD24F783F4003DDD5D = {
 			isa = PBXGroup;
 			children = (
@@ -60,15 +97,10 @@
 		E55375C824F783F4003DDD5D /* UIPageView */ = {
 			isa = PBXGroup;
 			children = (
-				E55375C924F783F4003DDD5D /* AppDelegate.swift */,
-				E55375CB24F783F4003DDD5D /* SceneDelegate.swift */,
-				E55375CD24F783F4003DDD5D /* ViewController.swift */,
-				E55375CF24F783F4003DDD5D /* Main.storyboard */,
-				E55375DF24F787DD003DDD5D /* PageViewController.swift */,
-				E55375DD24F787AC003DDD5D /* ContentViewController.swift */,
-				E55375D224F783F5003DDD5D /* Assets.xcassets */,
-				E55375D424F783F5003DDD5D /* LaunchScreen.storyboard */,
-				E55375D724F783F5003DDD5D /* Info.plist */,
+				E516195D264FEA6300D51CC8 /* Supporting files */,
+				E516195F264FEAA400D51CC8 /* View Controllers */,
+				E5161962264FEAD400D51CC8 /* Storyboards */,
+				E5161963264FEAE400D51CC8 /* Source */,
 			);
 			path = UIPageView;
 			sourceTree = "<group>";
@@ -100,7 +132,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = "Nikita Kochetov";
 				TargetAttributes = {
 					E55375C524F783F4003DDD5D = {
@@ -200,6 +232,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -224,6 +257,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "UIPageView/Supporting files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -260,6 +294,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -278,6 +313,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "UIPageView/Supporting files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -294,7 +330,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UZZW6YBBKN;
-				INFOPLIST_FILE = UIPageView/Info.plist;
+				INFOPLIST_FILE = "UIPageView/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +348,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UZZW6YBBKN;
-				INFOPLIST_FILE = UIPageView/Info.plist;
+				INFOPLIST_FILE = "UIPageView/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
