@@ -16,7 +16,7 @@
 		E55375DE24F787AC003DDD5D /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55375DD24F787AC003DDD5D /* ContentViewController.swift */; };
 		E55375E024F787DD003DDD5D /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55375DF24F787DD003DDD5D /* PageViewController.swift */; };
 		E5A20466264FF6F200669287 /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A20464264FF6F200669287 /* Screenshot01.png */; };
-		E5A20467264FF6F200669287 /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A20465264FF6F200669287 /* Screenshot02.png */; };
+		E5A2046B264FF7CF00669287 /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A2046A264FF7CF00669287 /* Screenshot02.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +31,7 @@
 		E55375DD24F787AC003DDD5D /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		E55375DF24F787DD003DDD5D /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		E5A20464264FF6F200669287 /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
-		E5A20465264FF6F200669287 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
+		E5A2046A264FF7CF00669287 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				E5A20464264FF6F200669287 /* Screenshot01.png */,
-				E5A20465264FF6F200669287 /* Screenshot02.png */,
+				E5A2046A264FF7CF00669287 /* Screenshot02.png */,
 			);
 			path = Screenshots;
 			sourceTree = "<group>";
@@ -180,7 +180,7 @@
 				E55375D624F783F5003DDD5D /* LaunchScreen.storyboard in Resources */,
 				E55375D324F783F5003DDD5D /* Assets.xcassets in Resources */,
 				E5A20466264FF6F200669287 /* Screenshot01.png in Resources */,
-				E5A20467264FF6F200669287 /* Screenshot02.png in Resources */,
+				E5A2046B264FF7CF00669287 /* Screenshot02.png in Resources */,
 				E55375D124F783F4003DDD5D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
