@@ -78,6 +78,13 @@
 			path = Source;
 			sourceTree = "<group>";
 		};
+		E5161967264FEB6500D51CC8 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		E55375BD24F783F4003DDD5D = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +104,7 @@
 		E55375C824F783F4003DDD5D /* UIPageView */ = {
 			isa = PBXGroup;
 			children = (
+				E5161967264FEB6500D51CC8 /* Screenshots */,
 				E516195D264FEA6300D51CC8 /* Supporting files */,
 				E516195F264FEAA400D51CC8 /* View Controllers */,
 				E5161962264FEAD400D51CC8 /* Storyboards */,
