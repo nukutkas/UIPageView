@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E516196B264FED4300D51CC8 /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = E5161969264FED4300D51CC8 /* Screenshot02.png */; };
+		E516196C264FED4300D51CC8 /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = E516196A264FED4300D51CC8 /* Screenshot01.png */; };
 		E55375CA24F783F4003DDD5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55375C924F783F4003DDD5D /* AppDelegate.swift */; };
 		E55375CC24F783F4003DDD5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55375CB24F783F4003DDD5D /* SceneDelegate.swift */; };
 		E55375CE24F783F4003DDD5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55375CD24F783F4003DDD5D /* ViewController.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E5161969264FED4300D51CC8 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
+		E516196A264FED4300D51CC8 /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
 		E55375C624F783F4003DDD5D /* UIPageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIPageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E55375C924F783F4003DDD5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E55375CB24F783F4003DDD5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +85,8 @@
 		E5161967264FEB6500D51CC8 /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
+				E516196A264FED4300D51CC8 /* Screenshot01.png */,
+				E5161969264FED4300D51CC8 /* Screenshot02.png */,
 			);
 			path = Screenshots;
 			sourceTree = "<group>";
@@ -174,6 +180,8 @@
 				E55375D624F783F5003DDD5D /* LaunchScreen.storyboard in Resources */,
 				E55375D324F783F5003DDD5D /* Assets.xcassets in Resources */,
 				E55375D124F783F4003DDD5D /* Main.storyboard in Resources */,
+				E516196C264FED4300D51CC8 /* Screenshot01.png in Resources */,
+				E516196B264FED4300D51CC8 /* Screenshot02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
