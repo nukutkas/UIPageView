@@ -1,6 +1,6 @@
 # UIPageView
 
-Presentation app for testing UIPageViewController
+Presentation app for practice  UIPageViewController
 
 # Installation
 
